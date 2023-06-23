@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.gradientLeft {
+    height: 100vh;
+    width: 30%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,9,121,1) 100%, rgba(0,212,255,1) 100%);  
+}
+
+.firstCard {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(156,29,253,1) 39%, rgba(252,176,69,1) 52%);
+    padding: 15px;
+    position: absolute;
+    top: 48px;
+    left: 119px;
+    width: 447px;
+    height: 245px;
+    border-radius: 15px;
+}
+
+.twoCircles {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.bigCircle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.smallCircle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.cardNumbers {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.cardNumbers p {
+    font-size: 30px;
+    color: white;
+}
+
+.nameAndDate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameAndDate p {
+    font-size: 17px;
+    color: white;
+}
+
+.card2 {
+    position: absolute;
+    top: 349px;
+    left: 217px;
+}
+
+.cardNameAndNumber {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardNameAndNumber p, .nameL p  {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+#cardNumber, #firstName {
+    width: 515px;
+    height: 55px;
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: 0;
+}
+
+.nameL {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.expDateCvc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.expDate p, .cvc p {
+    font-size: 20px;
+}
+
+#dateNumber {
+    width: 87px;
+    height: 55px;
+    border: 1px solid #C8C8C8;
+    outline: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cvc {
+    width: 258px;
+    height: 55px;
+    border: 1px solid #C8C8C8;
+    outline: 0;
+    border-radius: 10px;
+    padding-left: 15px;
+    
+}
+
+#submitButton {
+    width: 100%;
+    height: 55px;
+    background-color: #610596;
+    outline: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.danger {
+    border: 1px solid red !important;
+}
+
+.neutral {
+    border: 1px solid #C8C8C8 !important;
+}
+
+.holderForCrd, .holderForName {
+    color: red;
+    font-size: 10px;
+}
+
